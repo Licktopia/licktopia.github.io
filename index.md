@@ -9,7 +9,7 @@ As you can imagine, harnessing the power of Spotify's API can lead to endless po
 
 
 
-<button onclick="location.href = 'https://Licktopia/licktopia.github.io/page2';" id="myButton" class="float-left submit-button" >Let's Go</button>
+<button onclick="location.href = 'https://licktopia.github.io/page2';" id="myButton" class="float-left submit-button" >Let's Go</button>
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
