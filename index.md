@@ -1,7 +1,11 @@
 # Spotify API Tutorial
-### By Jeff Lichtman
+## By Jeff Lichtman
 
-You can use the [editor on GitHub](https://github.com/Licktopia/licktopia.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+Spotify is one of the most popular music applications available today, providing music, podcast and video streaming to over 100 million active monthly users. Spotify has over 30 million songs avaiable to stream. Spotify is avaiable on nearly every platform such as Windows, Ios, Linux, and Android.  
+
+With so many users, there are plenty of opportunities for third party software to integrate with Spotify in order to provide additional functionality. One such example is the Musixmatch app, which overlays the lyrics of the song you are playing on spotify on your Android mobile device.
+
+As you can imagine, harnessing the power of Spotify's API can lead to endless possibilities for app development. Today's tutorial will show you how to use the Spotify API in order to gain access to a user's music collection and display their playlist.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
