@@ -7,6 +7,7 @@ With so many users, there are plenty of opportunities for third party software t
 
 As you can imagine, harnessing the power of Spotify's API can lead to endless possibilities for app development. Today's tutorial will show you how to use the [Spotify API](https://developer.spotify.com/web-api/) in order to gain access to a user's music collection and display their playlist.
 
+
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
