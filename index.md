@@ -5,9 +5,7 @@ Spotify is one of the most popular music applications available today, providing
 
 With so many users, there are plenty of opportunities for third party software to integrate with Spotify in order to provide additional functionality. One such example is the Musixmatch app, which overlays the lyrics of the song you are playing on spotify on your Android mobile device.
 
-As you can imagine, harnessing the power of Spotify's API can lead to endless possibilities for app development. Today's tutorial will show you how to use the Spotify API in order to gain access to a user's music collection and display their playlist.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+As you can imagine, harnessing the power of Spotify's API can lead to endless possibilities for app development. Today's tutorial will show you how to use the [Spotify API](https://developer.spotify.com/web-api/) in order to gain access to a user's music collection and display their playlist.
 
 ### Markdown
 
