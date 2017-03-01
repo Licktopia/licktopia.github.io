@@ -14,5 +14,5 @@
 4. Lastly, don't forget to click Save or else your settings will not stick.
 
 <button onclick="location.href = 'https://licktopia.github.io/';" id="myButton" class="float-left submit-button" >Back</button>
-<button onclick="location.href = 'https://licktopia.github.io/page3';" id="myButton" class="float-right submit-button" >Back</button>
+<button onclick="location.href = 'https://licktopia.github.io/page3';" id="myButton" class="float-right submit-button" >Next</button>
 
