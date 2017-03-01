@@ -7,3 +7,6 @@ omit the HTML code, but examples can be found at https://developer.spotify.com.
 
 ![GrantAccess](/images/grantAccess.jpg)
 
+<button onclick="location.href = 'https://licktopia.github.io/page2';" id="myButton" class="float-left submit-button" >Back</button>
+<button onclick="location.href = 'https://licktopia.github.io/page4';" id="myButton" class="float-right submit-button" >Next</button>
+
