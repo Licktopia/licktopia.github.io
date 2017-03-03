@@ -21,7 +21,7 @@ In the code from the previous page, we have requested authorization, and Spotify
 
 ![access](/images/access.jpg)
 
-![login](/images/logln.jpg)
+![login](/images/logIn.jpg)
 
 Once authorization is granted, or there is some error with the request, you have retrieved the authorization code in the response query string here:
 
