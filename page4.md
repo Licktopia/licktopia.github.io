@@ -19,9 +19,9 @@ For now we are interested in the area highlighted in yellow, accessing a private
 In the code from the previous page, we have requested authorization, and Spotify will ask the user for the permission specified in the scope.
 
 
-![GrantAccess](/images/access.jpg)
+![access](/images/access.jpg)
 
-![GrantAccess](/images/login.jpg)
+![login](/images/login.jpg)
 
 Once authorization is granted, or there is some error with the request, you have retrieved the authorization code in the response query string here:
 
