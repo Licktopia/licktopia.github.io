@@ -2,8 +2,9 @@
 ### POST Request to get the token
 
 Spotify will then go back to the redirect URI and make a post to use the authorization code in order to get an access token. 
-This is done via a POST request to the address <https://accounts.spotify.com/api/token
->
+This is done via a POST request to the address [token list]:https://accounts.spotify.com/api/token
+
+
 The POST request will contain the following paramenters in it’s body. The “code” contains the authorization code from the authorization 
 GET call and “Grant_type” contains the value “authorization_code.” 
 
