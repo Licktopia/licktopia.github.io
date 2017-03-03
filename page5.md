@@ -2,7 +2,7 @@
 ### POST Request to get the token
 
 Spotify will then go back to the redirect URI and make a post to use the authorization code in order to get an access token. 
-This is done via a POST request to the address [token list](https://accounts.spotify.com/api/token)
+This is done via a POST request to the url https://accounts.spotify.com/api/token
 
 
 The POST request will contain the following paramenters in it’s body. The “code” contains the authorization code from the authorization 
@@ -29,11 +29,11 @@ If the request is successful and status code 200 is returned then a JSON object 
 
 Spotify returns a JSON object like this:
 
-   "access_token": "BQDF8W4E7jrt2Ntu72tCG7wAg",
-   "token_type": "Bearer",
-   "scope": "user-read-private user-read-email",
-   "expires_in": 3600,
-   "refresh_token": "AQCTCJlzFXWGJ0sl5DIfsRUIBVbolZxDhTfc"
+    "access_token": "BQDF8W4E7jrt2Ntu72tCG7wAg",
+    "token_type": "Bearer",
+    "scope": "user-read-private user-read-email",
+    "expires_in": 3600,
+    "refresh_token": "AQCTCJlzFXWGJ0sl5DIfsRUIBVbolZxDhTfc"
 
 The most important part here is the access token which we can now use to make requests to the Spotify Web API for further information. It’s also important to not e that the token expires in 1 hour, and the refresh token will be need to get a new token later.
 
