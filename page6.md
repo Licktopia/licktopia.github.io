@@ -18,7 +18,7 @@ POST request passing in the authorization options from above.
         
 The returned JSON object may be parsed to display information about the user like in the image below.
 
-![Profile](\images\Profile.jpg)
+![Profile](\images\profile.jpg)
 
 Finally, we can change our post request to get any kind of information we want within the limits of the scope we have requested and been granted.
 
