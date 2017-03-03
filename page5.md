@@ -11,8 +11,17 @@ GET call and “Grant_type” contains the value “authorization_code.”
 The authorization header parameter is an encoded string and contains the client ID and secret key.
 
     var authOptions = {
-
-
+      url: 'https://accounts.spotify.com/api/token',
+      form: {
+        code: code,
+        redirect_uri: redirect_uri,
+        grant_type: 'authorization_code'
+      },
+      headers: {
+        'Authorization': 'Basic ' + (new Buffer(client_id + ':' + client_secret).toString('base64'))
+      },
+      json: true
+    };
 
 
 If the request is successful and status code 200 is returned then a JSON object is returned
@@ -25,4 +34,4 @@ Spotify returns a JSON object like this:
    "expires_in": 3600,
    "refresh_token": "AQCTCJlzFXWGJ0sl5DIfsRUIBVbolZxDhTfc"
 
-THe most important part here is the access token which we can now use to make requests to the Spotify Web API for further information. It’s also important to not e that the token expires in 1 hour, and the refresh token will be need to get a new token later.
+The most important part here is the access token which we can now use to make requests to the Spotify Web API for further information. It’s also important to not e that the token expires in 1 hour, and the refresh token will be need to get a new token later.
