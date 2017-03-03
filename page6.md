@@ -38,7 +38,7 @@ We will make a GET request and log the contents of the body to the log. This sho
           console.log(body);
         });
 
-![Profile](\images\contents.jpg)
+![Playlists](\images\contents.jpg)
 
 Here we have completed what we set out to do, get authorization from the user and return a list of their playlists.
 
