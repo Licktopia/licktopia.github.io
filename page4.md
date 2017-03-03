@@ -3,13 +3,13 @@
 
 Now that we have the application all set up, we can proceed to get authorization from the user to allow our app to connect to their
 Spotify account. First we need to make a page that asks the user permission access their user data from Spotify. For brevity we will 
-omit the HTML code, but examples can be found at https://developer.spotify.com.
+omit the HTML code, but examples can be found at <https://developer.spotify.com>.
 
 ![GrantAccess](/images/grantAccess.jpg)
 
 #### Scopes
 
-We need to take a moment to talk about scopes. Scopes are what determine how much information we are authorizing Spotify to grant to our app. For example, getting a users birthday and modifying a user’s playlist require different levels of access. The list of available scopes may be found here https://developer.spotify.com/web-api/using-scopes.
+We need to take a moment to talk about scopes. Scopes are what determine how much information we are authorizing Spotify to grant to our app. For example, getting a users birthday and modifying a user’s playlist require different levels of access. The list of available scopes may be found here <https://developer.spotify.com/web-api/using-scopes>.
 
 For now we are interested in the area highlighted in yellow, accessing a private playlist.
 
