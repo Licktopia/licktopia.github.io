@@ -35,3 +35,7 @@ Spotify returns a JSON object like this:
    "refresh_token": "AQCTCJlzFXWGJ0sl5DIfsRUIBVbolZxDhTfc"
 
 The most important part here is the access token which we can now use to make requests to the Spotify Web API for further information. It’s also important to not e that the token expires in 1 hour, and the refresh token will be need to get a new token later.
+
+<button onclick="location.href = 'https://licktopia.github.io/page4';" id="myButton" class="float-left submit-button" >Back</button>
+<button onclick="location.href = 'https://licktopia.github.io/page6';" id="myButton" class="float-right submit-button" >Next</button>
+
