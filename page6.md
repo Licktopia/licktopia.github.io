@@ -18,11 +18,11 @@ POST request passing in the authorization options from above.
         
 The returned JSON object may be parsed to display information about the user like in the image below.
 
-[!Profile](images\Profile.jpg)
+![Profile](\images\Profile.jpg)
 
 Finally, we can change our post request to get any kind of information we want within the limits of the scope we have requested and been granted.
 
-[!Endpoints](images\Endpoints.png)
+![Endpoints](\images\Endpoints.png)
 
 Here we will request the user playlist by changing the options url to:
 
@@ -34,14 +34,16 @@ Here we will request the user playlist by changing the options url to:
 
 We will make a GET request and log the contents of the body to the log. This should contain our playlists.
 
-request.get(options, function(error, response, body) {
+    request.get(options, function(error, response, body) {
           console.log(body);
         });
 
-[!Contents](images\Contents.jpg]
+![Contents](\images\Contents.jpg]
 
 Here we have completed what we set out to do, get authorization from the user and return a list of their playlists.
 
+<button onclick="location.href = 'https://licktopia.github.io/page5';" id="myButton" class="float-left submit-button" >Back</button>
+  
         
 
         
